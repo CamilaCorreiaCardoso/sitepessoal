@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2 {
+    font-family: 'Chango', cursive;
+    font-weight: 200;
+}
+
+section h3,
+form button {
+    font-family: 'Chango', cursive;
+    font-weight: 100;
+}
+
+header {
+    padding: 18px 0;
+    background-color: rgba(250, 177, 228, 0.795);
+    color: #fff;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li {
+    font-size: 18px;
+    display: inline;
+    margin-left: 16px;
+}
+
+header .container .logo {
+    height: 50px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 28px;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .about h2 {
+    margin-bottom: 10px;
+}
+
+.container .store-front {
+    height: 350px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+section .container h2 {
+    margin-left: 40%;
+}
+
+.images h2 {
+    margin-bottom: 10px;
+}
+
+.images img {
+    height: 200px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.images li {
+    display: inline;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgba(250, 177, 228, 0.795);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(245, 77, 194, 0.795);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgba(250, 177, 228, 0.795);
+}
+
+
+footer {
+    background-color: rgba(250, 177, 228, 0.795);
+    color: #ecf0f1;
+    padding: 8px 0;
+}
+
+footer p {
+    font-size: 20px;
+    margin-left: 38%;
+}
