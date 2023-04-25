@@ -1,0 +1,28 @@
+p {
+    color: rgba(14, 86, 20, 0.881);
+    font-size: 18px;
+}
+
+h1 {
+    color: blueviolet;
+
+}
+
+body {
+
+    background-color: aqua;
+
+}
+
+
+#titulo-sessao-1 {
+    color: brown;
+}
+
+#titulo-sessao-2 {
+    color: blue;
+}
+
+#titulo-sessao-3 {
+    color: blueviolet;
+}
